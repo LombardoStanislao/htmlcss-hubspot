@@ -17,7 +17,9 @@
 a {
   text-decoration: none;
   color: inherit;
+  display: inline-block;
 }
+
 
 ul {
 
@@ -34,6 +36,7 @@ ul {
 
 .border-header {
 
+    /* position: fixed; */
     background-color: #f5f8fa;
 }
 
@@ -129,6 +132,10 @@ ul {
 
 
 .homepage {
+  background-image: url("city.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
   background-color: #fff4ee;
 }
 
@@ -221,8 +228,8 @@ h3 {
   display: inline-block;
 }
 
-#icon {
-  font-size: 180%;
+.middle-page  i {
+  font-size: 150%;
   color: coral;
   margin-right: 10px;
 }
@@ -249,6 +256,7 @@ hr {
 
 #tick {
 
+  font-size: 100%;
   color: coral;
   margin-right: 10px;
 }
@@ -258,7 +266,6 @@ hr {
   border-radius: 3px;
   width: 100%;
   padding: 15px 0px;
-  margin-left: 10px;
   font-size: 16px;
   color: white;
   background-color: coral;
@@ -301,4 +308,135 @@ hr {
   background-color: white;
   width: calc(33% - 20px);
   float: right;
+}
+
+.third-page {
+
+  width: 100%;
+  height: 100%;
+  background-color: #00baa8;
+}
+
+.third-text{
+
+  padding: 100px 150px 0;
+  color: white;
+  text-align: center;
+
+}
+
+.third-title  {
+
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.third-text:last-child p  {
+
+  color: white;
+  text-align: center;
+  font-weight: lighter;
+  padding: 20px 40px 0;
+  font-size: 18px;
+
+}
+
+.float-left {
+
+  float: left;
+}
+
+.numbers {
+
+  margin-top: -350px;
+  color: white;
+}
+
+.first-number .text-number {
+
+  text-align: center;
+  /* padding: 0 40px 40px; */
+  margin-bottom: 30px;
+}
+
+.main-number {
+
+  display: inline-block;
+  font-size: 62px;
+  font-weight: 700;
+}
+
+.first-number {
+
+    text-align: center;
+    width: 25%;
+    height: 200px;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+}
+
+.first-number  span, .complete-number-last span {
+
+  vertical-align: 1em;
+}
+
+.first-number i, .last-number i, .complete-number-last i {
+
+  font-size: 200%;
+}
+
+.complete-number {
+
+  margin-top: 40px;
+}
+
+.logo-for-number {
+
+  width: 69px;
+}
+
+.complete-number-two {
+
+  margin-top: 50px;
+}
+
+.last-number {
+
+      text-align: center;
+      width: 25%;
+      height: 200px;
+      border-bottom: 1px solid white;
+
+}
+
+.name-number {
+
+  font-size: 1.5em;
+}
+
+.complete-number-last {
+
+  margin-top: 42px;
+}
+
+.second-row {
+
+      text-align: center;
+      width: 25%;
+      height: 200px;
+      border-right: 1px solid white;
+
+}
+
+#globe {
+
+  font-size: 2em;
+}
+
+.second-row-last {
+
+      text-align: center;
+      width: 25%;
+      height: 200px;
+
 }
