@@ -479,7 +479,7 @@ hr {
 
   font-size: 1.4em;
   font-weight: 200;
-  padding-top: 10px;
+  padding-top: 20px;
 }
 
 .sponsor {
@@ -503,4 +503,33 @@ hr {
 #vmware {
 
   margin-bottom: 30px;
+}
+
+.left-side {
+
+  width: 50%;
+  padding: 150px 0;
+}
+
+.left-side h2 {
+
+  font-size: 2.5em;
+}
+
+.left-side:first-of-type p {
+
+  font-weight: 200;
+  margin-top: 20px;
+  font-size: 1.2em;
+}
+
+.free-tools {
+
+  margin-top: 20px;
+  font-weight: 200;
+}
+
+#kim {
+
+  padding: 80px;
 }
