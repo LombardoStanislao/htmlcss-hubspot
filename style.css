@@ -149,7 +149,7 @@ ul {
   background-color: #fff4ee;
 }
 
-.slogan, .main-text, .info-paid, .second-slogan, .second-text, .classic-text, h3, hr, .list-features {
+.slogan, .main-text, .info-paid, .second-slogan, .second-text, .classic-text, h3, h2, hr, .list-features {
 
   color: rgba(0, 0, 0, 0.7);
 }
@@ -337,6 +337,7 @@ hr {
 
 .third-title  {
 
+    color: white;
     font-weight: 700;
     font-size: 35px;
 }
@@ -460,4 +461,46 @@ hr {
 
     background-color: #ffffff;
     height: 1000px;
+}
+
+.customers {
+
+  width: 40%;
+  padding-top: 100px;
+}
+
+.customers h2 {
+
+  padding-top: 10px;
+  font-size: 3em;
+}
+
+.customers p {
+
+  font-size: 1.4em;
+  font-weight: 200;
+  padding-top: 10px;
+}
+
+.sponsor {
+
+  padding-top: 100px;
+  width: 60%;
+
+}
+
+.img-sponsor img{
+
+  margin-left: 10px;
+  width: 150px;
+}
+
+#subaru {
+
+  margin-bottom: 13px;
+}
+
+#vmware {
+
+  margin-bottom: 30px;
 }
