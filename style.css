@@ -121,8 +121,8 @@ ul {
 
 .arrow-down::after {
   content: '\f0dd';
-    font-family: FontAwesome;
-    margin-left:10px;
+  font-family: FontAwesome;
+  margin-left:10px;
 }
 
 .border-disclaimer {
@@ -532,4 +532,71 @@ hr {
 #kim {
 
   padding: 80px;
+}
+
+footer {
+
+  background-color: #33475b;
+  height: 1000px;
+  color: white;
+}
+
+.footer-box {
+
+  margin-top: 80px;
+  width: 25%;
+}
+
+h5 {
+
+  font-size: 1.2em;
+}
+
+
+.footer-box a {
+
+  padding: 15px 60px 15px 0;
+  color: #bac8d6;
+}
+
+
+#support {
+
+  border-radius: 4px;
+  padding: 13px 20px;
+}
+
+#support:hover {
+  background-color: #eaf0f5;
+
+}
+
+.icons a {
+
+  font-size: 1.2em;
+  padding: 6px;
+  opacity: 80%;
+
+}
+
+.icons a:hover, .footer-box a:hover, .language a:hover {
+
+  color: #7fd2de;
+}
+
+/*************** DA CHIEDERE *************/
+
+.language {
+
+  font-size: 1.2em;
+  text-align: center;
+  padding-top: 500px;
+
+}
+
+
+.language a {
+
+  color: #eaf0f5;
+  padding-right: 30px;
 }
