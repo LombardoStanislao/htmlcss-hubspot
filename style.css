@@ -50,6 +50,39 @@ ul {
     background-color: #f5f8fa;
 }
 
+.choose-languages {
+
+  display: inline;
+
+}
+
+.dropdown-languages a {
+
+  padding: 5px 0px;
+
+}
+
+.dropdown-languages {
+
+  display: none;
+
+}
+
+.choose-languages a:hover .dropdown-languages {
+
+  display: block;
+  position: absolute;
+}
+
+
+.choose-languages a:hover .dropdown-languages ul {
+
+  display: block;
+}
+
+.dropdown-languages ul li {
+  list-style: none;
+}
 
 #language {
 
@@ -67,7 +100,8 @@ ul {
 
 #contact-sales {
 
-  margin-left: 20px;
+  margin-left: 30px;
+  display: inline;
 }
 
 .right-header {
@@ -547,8 +581,9 @@ hr {
 footer {
 
   background-color: #33475b;
-  height: 1000px;
   color: white;
+  position: relative;
+  /* height: 800px; */
 }
 
 .footer-box {
@@ -634,4 +669,52 @@ h5 {
 
   font-size: 1.2em;
   padding: 15px;
+}
+
+#chat {
+
+  font-size: 2em;
+  background-color: #425b76;
+  padding: 18px;
+  border-radius: 50%;
+  right: 10px;
+
+}
+
+.chatbox {
+  position: fixed;
+  bottom: 10px;
+  right: 70px;
+}
+
+.message-chatbox {
+  width: 240px;
+  height: 80px;
+  background-color: white;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  position: relative;
+
+}
+
+.float-right {
+
+  float: right;
+}
+
+.message-chatbox p {
+
+    text-align: center;
+    color: black;
+    font-weight: 200;
+    padding: 10px 10px 5px 10px;
+
+}
+
+#robot {
+
+  width: 15%;
+  position: absolute;
+  left: 40%;
+  top: calc(0% - 30%);
 }
